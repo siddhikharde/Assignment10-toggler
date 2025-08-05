@@ -16,10 +16,27 @@ body{
     justify-content: center;
     gap: 40px;
     margin-top: 40px;
+    width: 100%;
 }
 .img {
-    width: 500px;
+    width: 500x;
     height: 300px;
     border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);   
     border: 2px solid #ffffff;
+}
+.button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #ffffff;
+    color: #070404;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.button:hover {
+   
+    transform: scale(1.03);
+    transition: all 0.5s ease;
 }
